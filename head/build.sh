@@ -3,6 +3,7 @@ dnf -y update
 
 # Add the new packages we need
 dnf -y install chrony krb5-libs krb5-workstation sssd-krb5 sssd-tools sssd-dbus authselect-compat
+dnf group install "Development Tools"
 
 # Configure NTP
 systemctl enable --now chronyd
