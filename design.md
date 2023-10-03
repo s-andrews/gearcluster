@@ -28,3 +28,14 @@ Things that need setting up on the nodes
 5. User setup - copying ```passwd group shadow``` from the head
 
 I'm sure there will be more things.
+
+## Files to sync
+
+* /etc/passwd
+* /etc/group
+* /etc/shadow
+* /etc/fstab
+* /etc/chrony.conf
+* /etc/sssd/sssd.conf [maybe? not sure if we need password auth on compute nodes]
+* /etc/sudoers
+* 
